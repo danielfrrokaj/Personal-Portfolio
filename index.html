@@ -786,24 +786,24 @@ Coursework: Artificial Intelligence, Machine Learning Concepts, Smart Digital Pl
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form netlify action="/index.html">
-
+          <form action="/index.html" method="POST" data-netlify="true" class="form">
             <div class="input-wrapper">
-              <label for="name"><input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-              </label>
-              <label for="email">
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </label>
+                <label for="name">
+                    <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+                </label>
+                <label for="email">
+                    <input type="email" name="email" class="form-input" placeholder="Email address" required>
+                </label>
             </div>
             <label for="message">
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-          </label>
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
+                <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+            </label>
+            <button class="form-btn" type="submit">
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
             </button>
-
-          </form>
+        </form>
+        
 
         </section>
 
