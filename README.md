@@ -5,3 +5,8 @@
 <h1>Screenshot</h1>
 <img src="assets/images/screenshots/portfolio.png" alt="screenshot">
 
+<h2>Hosting</h2>
+<p>Github</p>
+
+<h2>Deploy Manager & Domain</h2>
+<p>Netlify</p>
