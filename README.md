@@ -3,5 +3,5 @@
 <p>In this project you can access all my documented works, it serves as a portfolio and a resume with a very modern and easy to use UI.</p>
 
 <h1>Screenshot</h1>
-<img href="assets/images/screenshots/portfolio.png">
+<img src="assets/images/screenshots/portfolio.png" alt="screenshot">
 
